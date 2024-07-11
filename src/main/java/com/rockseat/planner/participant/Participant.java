@@ -20,13 +20,13 @@ public class Participant {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
-    @Column(nullable = false)
+    @Column(name = "name", nullable = false)
     private String name;
 
-    @Column(nullable = false)
+    @Column(name = "email", nullable = false)
     private String email;
 
-    @Column(nullable = false)
+    @Column(name = "is_Confirmed", nullable = false)
     private Boolean isConfirmed;
 
     @ManyToOne

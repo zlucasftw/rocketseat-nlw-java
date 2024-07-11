@@ -1,5 +1,9 @@
 package com.rockseat.planner.trip;
 
+import com.rockseat.planner.activities.ActivityData;
+import com.rockseat.planner.activities.ActivityRequestPayload;
+import com.rockseat.planner.activities.ActivityResponse;
+import com.rockseat.planner.activities.ActivityService;
 import com.rockseat.planner.participant.Participant;
 import com.rockseat.planner.participant.ParticipantData;
 import com.rockseat.planner.participant.ParticipantService;
@@ -24,6 +28,9 @@ public class TripController {
 
     @Autowired
     private TripRepository repository;
+
+    @Autowired
+    private ActivityService activityService;
 
     @PostMapping
     public ResponseEntity<TripCreateResponse> createTrip(@RequestBody TripRequestPayload payload){
@@ -108,6 +115,29 @@ public class TripController {
         List<ParticipantData> participantsList = this.participantService.getAllParticipantsFromEvent(id);
 
         return ResponseEntity.ok(participantsList);
+    }
+
+    @PostMapping("/{id}/activities")
+    public ResponseEntity<ActivityResponse> registerActivity(@PathVariable UUID id, @RequestBody ActivityRequestPayload payload){
+
+        Optional<Trip> trip = this.repository.findById(id);
+
+        if (trip.isPresent()) {
+            Trip rawTrip = trip.get();
+
+            ActivityResponse activityResponse = this.activityService.registerActivity(payload, rawTrip);
+
+            return ResponseEntity.ok(activityResponse);
+        }
+
+        return ResponseEntity.notFound().build();
+    }
+
+    @GetMapping("{id}/activities")
+    public ResponseEntity<List<ActivityData>> getAllActivities(@PathVariable UUID id) {
+        List<ActivityData> activityDataList = this.activityService.getAllActivitiesFromId(id);
+
+        return ResponseEntity.ok(activityDataList);
     }
 
 }
