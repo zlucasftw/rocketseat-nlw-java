@@ -11,6 +11,8 @@ mesmo projeto mas em diferentes partes (backend, frontend, mobile, etc).
 ## Link do NWL Journey 16 - Rocketseat 
 ### [NWL Journey Rocketseat](https://www.rocketseat.com.br/eventos/nlw/convite/lucas-37245)
 
+## [Repositório Original do Projeto](https://github.com/rocketseat-education/nlw-journey-java)
+
 ## Plann.er - Criação de API REST com as tecnologias:
 - [Spring Initializr](https://start.spring.io/)
 - Spring Web
@@ -22,12 +24,12 @@ mesmo projeto mas em diferentes partes (backend, frontend, mobile, etc).
 ## IDE e Ferramentas
 
 - IntelliJ
-- Imsomnia
+- Insomnia
 
 ## Projeto no Figma
 - [Plann.er](https://www.figma.com/community/file/1392276515495389646/nlw-journey-planejador-de-viagem)
 
-![Projeto no Figma](figma.png)
+[![Projeto no Figma](figma.png)](https://www.figma.com/community/file/1392276515495389646/nlw-journey-planejador-de-viagem)
 
 ## Link do material da trilha Java no Notion
 [NLW 16: Journey - Java](https://efficient-sloth-d85.notion.site/Java-88e8c49196cb497aa471a3773408ecba)
