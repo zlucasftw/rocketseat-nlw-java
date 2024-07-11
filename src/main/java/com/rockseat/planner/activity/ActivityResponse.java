@@ -1,4 +1,4 @@
-package com.rockseat.planner.activities;
+package com.rockseat.planner.activity;
 
 import java.util.UUID;
 

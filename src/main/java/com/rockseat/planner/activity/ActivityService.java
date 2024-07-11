@@ -1,6 +1,5 @@
-package com.rockseat.planner.activities;
+package com.rockseat.planner.activity;
 
-import com.rockseat.planner.participant.ParticipantData;
 import com.rockseat.planner.trip.Trip;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
