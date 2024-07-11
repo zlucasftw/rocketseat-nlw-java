@@ -27,7 +27,7 @@ mesmo projeto mas em diferentes partes (backend, frontend, mobile, etc).
 ## Projeto no Figma
 - [Plann.er](https://www.figma.com/community/file/1392276515495389646/nlw-journey-planejador-de-viagem)
 
-![Projeto no Figma](https://s3-alpha.figma.com/hub/file/6146154554/07077a05-04b2-41df-b4b1-191a6eee9e2a-cover.png)
+![Projeto no Figma](figma.png)
 
 ## Link do material da trilha Java no Notion
 [NLW 16: Journey - Java](https://efficient-sloth-d85.notion.site/Java-88e8c49196cb497aa471a3773408ecba)
