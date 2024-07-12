@@ -1,4 +1,4 @@
-# NWL Journey - Rocketseat - Trilha Java
+# NLW Journey - Rocketseat - Trilha Java
 
 ### Descrição breve
 O projeto está dividido em várias trilhas disponíveis. Entretanto todas as trilhas seguem a mesma ideia de projeto
