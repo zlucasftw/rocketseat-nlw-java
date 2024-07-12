@@ -8,7 +8,7 @@ mesmo projeto mas em diferentes partes (backend, frontend, mobile, etc).
 
 **As features extras após o final do projeto ainda não foram implementadas.**
 
-## Link do NWL Journey 16 - Rocketseat 
+## Link do NLW Journey 16 - Rocketseat 
 ### [NLW Journey Rocketseat](https://www.rocketseat.com.br/eventos/nlw/convite/lucas-37245)
 
 ## [Repositório Original do Projeto](https://github.com/rocketseat-education/nlw-journey-java)
